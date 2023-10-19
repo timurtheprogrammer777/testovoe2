@@ -1,0 +1,30 @@
+.selected-list__item-btn {
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid var(--border-primary, rgba(7, 0, 15, 0.10));
+    background: var(--bg-neutral, rgba(2, 22, 45, 0.05));
+    height: 32px;
+    padding: 0px 32px 0px 12px;
+    margin: 12px 0px 12px 12px;
+    color:#07000F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+  
+.selected-list__item-btn::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../imgs/Close.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

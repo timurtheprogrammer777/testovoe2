@@ -1,0 +1,43 @@
+.form__button{
+    border-radius: 12px;
+    border: 1px solid rgba(7, 0, 15, 0.10);
+    background: rgba(2, 22, 45, 0.05);
+    display: block;
+    height: 48px;
+    width: 320px;
+    color: #07000F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.52px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 40px;
+    z-index: 3;
+    transition: .3s;
+}
+
+.form__button:hover{
+    border: 1px solid rgba(7, 0, 15, 0.40);
+}
+
+.form__button::before{
+    content: '';
+    background-image: url(../../../imgs/Search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    width: 16px;
+    height: 16px;
+}
+
+
+.form__button.open{
+    border: 1px solid rgba(7, 0, 15, 0.40);
+}

@@ -1,0 +1,25 @@
+.form__span{
+    color: #fff;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 0 0 0px 80px;
+    z-index: 10;
+}
+  
+.form__span::after{
+    content: '';
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #0067FE;
+    position: absolute;
+    top: -8px;
+    left: -11px;
+    z-index: -1;
+}

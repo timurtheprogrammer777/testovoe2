@@ -1,0 +1,10 @@
+.selected-list{
+    display: flex;
+    margin: 0 0 7px;
+    padding: 0;
+    text-align: start;
+}
+
+.selected-list_active{
+    border-bottom: 1px solid rgba(7, 0, 15, 0.1);
+}
