@@ -26,15 +26,31 @@
   background-color: #fff;
 }
 
+
 /* Стили для Firefox */
 @-moz-document url-prefix() {
+
+  .dropdown-values {
+    scrollbar-width: thin;
+  }
+
+  .dropdown-values {
+    scrollbar-color: #000 transparent;
+  }
+}
+
+
+
+
+/* Стили для Firefox */
+/* @-moz-document url-prefix() {
   .dropdown-values {
     scrollbar-width: thin;
     position: relative;
   }
 
   .dropdown-values {
-    scrollbar-color: transparent transparent; /* Сделаем скроллбар в Firefox прозрачным */
+    scrollbar-color: transparent transparent; 
   }
 
   .dropdown-values::after {
@@ -52,6 +68,6 @@
   .dropdown-values:hover::after {
     background-color: #000; 
     border-radius: 7px;
-    animation: none; /* Отключаем анимацию при наведении */
+    animation: none;
   }
-}
+} */
